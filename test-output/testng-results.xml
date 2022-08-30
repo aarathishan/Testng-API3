@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3288" started-at="2022-08-28T13:49:58Z" finished-at="2022-08-28T13:50:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3288" started-at="2022-08-28T13:49:58Z" finished-at="2022-08-28T13:50:01Z">
+      <class name="org.jira.Jira3">
+        <test-method status="PASS" signature="session()[pri:1, instance:org.jira.Jira3@4678c730]" name="session" duration-ms="1681" started-at="2022-08-28T13:49:58Z" finished-at="2022-08-28T13:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- session -->
+        <test-method status="PASS" signature="createIssue()[pri:2, instance:org.jira.Jira3@4678c730]" name="createIssue" duration-ms="1185" started-at="2022-08-28T13:50:00Z" finished-at="2022-08-28T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method status="PASS" signature="addComment()[pri:3, instance:org.jira.Jira3@4678c730]" name="addComment" duration-ms="113" started-at="2022-08-28T13:50:01Z" finished-at="2022-08-28T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method status="PASS" signature="attachment()[pri:4, instance:org.jira.Jira3@4678c730]" name="attachment" duration-ms="170" started-at="2022-08-28T13:50:01Z" finished-at="2022-08-28T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachment -->
+        <test-method status="PASS" signature="getIssue()[pri:5, instance:org.jira.Jira3@4678c730]" name="getIssue" duration-ms="79" started-at="2022-08-28T13:50:01Z" finished-at="2022-08-28T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssue -->
+        <test-method status="PASS" signature="getComments()[pri:6, instance:org.jira.Jira3@4678c730]" name="getComments" duration-ms="26" started-at="2022-08-28T13:50:01Z" finished-at="2022-08-28T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getComments -->
+      </class> <!-- org.jira.Jira3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
